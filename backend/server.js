@@ -5,7 +5,7 @@ import Cors from "cors";
 
 const app = express();
 const port = process.env.PORT || 8001;
-const connection_url = "mongodb+srv://admin:5vP3K5IG9vbYlyBP@tindercluster.n0ml1.mongodb.net/TinderCluster?retryWrites=true&w=majority";
+const connection_url = "YOUR URL";
 
 app.use(express.json());
 app.use(Cors());
